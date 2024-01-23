@@ -1,0 +1,414 @@
+repo_name: todaypp/tq-obsidian
+report_id: 75bd9b3a755b62d86eecf8317099dd5f
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:15:29+00:00'
+requested_by: tgrosinger
+provider: github
+branch: main
+detected_tools_count: 30
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/todaypp/tq-obsidian
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/todaypp/tq-obsidian
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: Svelte
+  description: A UI framework that compiles into tiny standalone JavaScript modules
+  website_url: https://svelte.technology/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-21 14:30:26.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-01 15:05:52.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-21 14:30:26.000000000 Z
+- name: Obsidian
+  description: A second brain, for you, forever
+  website_url: https://obsidian.md
+  open_source: false
+  hosted_saas: false
+  category: Collaboration
+  sub_category: Knowledge Management
+  image_url: https://img.stackshare.io/service/21247/default_38a315c27903a7e11d83084960ad5dee008c8549.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-22 15:22:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian
+  detection_source: Repo Metadata
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 11.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-21 14:30:26.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 26.0.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-01 15:05:52.000000000 Z
+- name: "@types/js-yaml"
+  description: TypeScript definitions for js-yaml
+  package_url: https://www.npmjs.com/@types/js-yaml
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16757/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-01 15:05:52.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.170
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-01 15:05:52.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 15.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-01 15:05:52.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-20 15:43:22.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.6.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-20 15:43:22.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: eslint-plugin-jsdoc
+  description: JSDoc linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-jsdoc
+  version: 30.7.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16672/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-23 02:54:37.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-21 14:30:26.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: rollup-plugin-svelte
+  description: Compile Svelte components with Rollup
+  package_url: https://www.npmjs.com/rollup-plugin-svelte
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18065/image.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-06-21 14:30:26.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 26.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.1.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/todaypp/tq-obsidian/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Tony Grosinger
+  last_updated_on: 2021-05-20 15:25:37.000000000 Z
